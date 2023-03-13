@@ -1,5 +1,46 @@
+@font-face {
+    font-family: 'Pricedown';
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+    src: local('pricedown'), url('pricedown.otf') format('opentype');
+}
+
 .ac-game-menu {
     width: 100%;
     height: 100%;
-    background-image: url("/static/image/menu/background.gif");
+    background-image: url("/static/image/menu/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.ac-game-menu-field {
+    width: 20vw;
+    position: relative;
+    top: 60vh;
+    left: 70vw;
+}
+
+.ac-game-menu-title {
+    color: rgba(166, 227, 239, 0.94);
+    height: 11.5vh;
+    width: 28vw;
+    position: relative;
+    font-family: "Pricedown", sans-serif;
+    font-size: 9vh;
+    /*background-color: rgba(0, 0, 0, 0.94);*/
+    top: -4vh;
+    left: 70vw;
+    font-style: oblique;
+}
+
+.ac-game-menu-field-item {
+    color: #b0dde7;
+    height: 9.3vh;
+    width: 23vw;
+    font-family: "Microsoft JhengHei", sans-serif;
+    font-size: 8vh;
+    font-style: italic;
+    padding: 2vh;
+    background-color: rgba(0, 0, 0, 0.94);
 }
