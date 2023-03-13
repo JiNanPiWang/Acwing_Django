@@ -1,17 +1,25 @@
 {% load static %}
 
 <head>
+    <!-- 使用CDN的jQuery相对于将它们存储在本地有几个优点：
+         加速页面加载速度：CDN通常具有全球分布式的内容交付网络，因此可以从离用户更近的位置提供内容，从而减少了网页加载时间，提高了用户体验。
+         减少服务器压力：使用CDN，您的网站可以将静态资源（如图片、JavaScript文件和CSS文件）存储在CDN提供商的服务器上，减少了您的服务器的负载。
+         提高可靠性：CDN通常具有高可用性和故障转移机制，可以在服务器故障或其他问题时确保您的网站仍然可以访问。
+         维护更新：使用CDN，您可以轻松地访问各种版本的库和框架，并在不破坏现有代码的情况下更新它们，从而更轻松地管理代码库和维护更新。
+         但是，如果您担心CDN提供商出现问题或停止服务，也可以将资源存储在本地。
+         已经存在当前目录下，可直接使用
+    -->
     <link rel="stylesheet" href="https://cdn.acwing.com/static/jquery-ui-dist/jquery-ui.min.css">
     <script src="https://cdn.acwing.com/static/jquery/js/jquery-3.3.1.min.js"></script>
     <link rel="stylesheet" href="{% static 'css/game.css' %}">
-    <script src="% static 'js/dist/game.js' %"></script>
+    <script src="{% static 'js/dist/game.js' %}"></script>
 </head>
 
 <body style="margin: 0">
 <div id="ac_game_12345678"></div>
 <script>
     $(document).ready(function () {
-        let ac_game = AcGame(ac_game_12345678);
-    })
+        let ac_game = new AcGame("ac_game_12345678");
+    });
 </script>
 </body>
