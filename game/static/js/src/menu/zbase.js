@@ -11,7 +11,7 @@ class AcGameMenu {
                     <div class="ac-game-menu-field-item ac-game-menu-field-item-multi-mode">
                         多人模式
                     </div>
-                    <div class="ac-game-menu-field-item ac-game-menu-field-item-settings">
+                    <div class="ac-game-menu-field-item ac-game-menu-f  ield-item-settings">
                         设置
                     </div>
                 </div>
@@ -37,7 +37,8 @@ class AcGameMenu {
     add_listening_events() {
         let outer = this;
         this.$single_mode.click(function () {
-            console.log("点击了单人模式");
+            outer.hide();
+            outer.root.playground.show();
         });
         this.$multi_mode.click(function () {
             console.log("点击了多人模式");
