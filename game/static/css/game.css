@@ -12,14 +12,13 @@
     background-image: url("/static/image/menu/background.jpg");
     background-size: cover;
     background-position: center;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
-.ac-game-menu-field {
-    width: 20vw;
-    position: relative;
-    top: 60vh;
-    left: 70vw;
-}
 
 .ac-game-menu-title {
     color: rgba(166, 227, 239, 0.94);
@@ -29,18 +28,42 @@
     font-family: "Pricedown", sans-serif;
     font-size: 9vh;
     /*background-color: rgba(0, 0, 0, 0.94);*/
-    top: -4vh;
+    top: -6vh;
     left: 70vw;
     font-style: oblique;
 }
 
+.ac-game-menu-field {
+    width: 20vw;
+    position: relative;
+    top: 58vh;
+    left: 70vw;
+}
+
 .ac-game-menu-field-item {
     color: #b0dde7;
-    height: 9.3vh;
+    height: 9.8vh;
     width: 23vw;
     font-family: "Microsoft JhengHei", sans-serif;
-    font-size: 8vh;
+    font-size: 7.4vh;
     font-style: italic;
     padding: 2vh;
     background-color: rgba(0, 0, 0, 0.94);
+    cursor: pointer;
+    border-radius: 3vh;
 }
+
+.ac-game-menu-field-item:hover {
+    transform: scale(1.04);
+    transition: 250ms;
+}
+
+/*.ac-game-menu-field-item-single {*/
+/*    border-top-left-radius: 4vh;*/
+/*    border-top-right-radius: 4vh;*/
+/*}*/
+
+/*.ac-game-menu-field-item-settings {*/
+/*    border-bottom-left-radius: 4vh;*/
+/*    border-bottom-right-radius: 4vh;*/
+/*}*/
