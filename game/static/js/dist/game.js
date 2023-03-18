@@ -17,7 +17,12 @@ class AcGameMenu {
                 </div>
                 
                 <div class="ac-game-menu-title">
-                    DTA: DongBei THEFT AUTO
+                    <div class="ac-game-menu-title-1">
+                        DTA: DongBei
+                    </div>
+                    <div class="ac-game-menu-title-2">
+                        THEFT AUTO
+                    </div>
                 </div>
                 
             </div>
