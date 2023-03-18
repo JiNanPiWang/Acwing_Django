@@ -11,13 +11,18 @@ class AcGameMenu {
                     <div class="ac-game-menu-field-item ac-game-menu-field-item-multi-mode">
                         多人模式
                     </div>
-                    <div class="ac-game-menu-field-item ac-game-menu-f  ield-item-settings">
+                    <div class="ac-game-menu-field-item ac-game-menu-field-item-settings">
                         设置
                     </div>
                 </div>
                 
                 <div class="ac-game-menu-title">
-                    DTA: DongBei THEFT AUTO
+                    <div class="ac-game-menu-title-1">
+                        DTA: DongBei
+                    </div>
+                    <div class="ac-game-menu-title-2">
+                        THEFT AUTO
+                    </div>
                 </div>
                 
             </div>

@@ -22,15 +22,16 @@
 
 .ac-game-menu-title {
     color: rgba(166, 227, 239, 0.94);
-    height: 11.5vh;
-    width: 28vw;
-    position: relative;
     font-family: "Pricedown", sans-serif;
-    font-size: 9vh;
-    /*background-color: rgba(0, 0, 0, 0.94);*/
+    font-style: oblique;
+    font-size: 9vmin;
+    position: relative;
     top: -6vh;
     left: 70vw;
-    font-style: oblique;
+
+    white-space: nowrap;
+    height: 11.5vh;
+    width: 28vw;
 }
 
 .ac-game-menu-field {
@@ -51,6 +52,7 @@
     background-color: rgba(0, 0, 0, 0.94);
     cursor: pointer;
     border-radius: 3vh;
+    white-space: nowrap;
 }
 
 .ac-game-menu-field-item:hover {
