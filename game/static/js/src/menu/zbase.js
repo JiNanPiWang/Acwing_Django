@@ -17,12 +17,7 @@ class AcGameMenu {
                 </div>
                 
                 <div class="ac-game-menu-title">
-                    <div class="ac-game-menu-title-1">
-                        DTA: DongBei
-                    </div>
-                    <div class="ac-game-menu-title-2">
-                        THEFT AUTO
-                    </div>
+                    球球大作战
                 </div>
                 
             </div>
